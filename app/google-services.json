@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "26403336181",
+    "firebase_url": "https://resturante-859f3.firebaseio.com",
+    "project_id": "resturante-859f3",
+    "storage_bucket": "resturante-859f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26403336181:android:29fe0f589f793c05",
+        "android_client_info": {
+          "package_name": "com.a3lf.tomas1207portable.projectresturante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26403336181-ck6btgp32iv1a143um3v1vvgajg9lst3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a3lf.tomas1207portable.projectresturante",
+            "certificate_hash": "914d353530b1206ca7103e6512349187ae6dc4c5"
+          }
+        },
+        {
+          "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaL7jABfLxraLuWT0HgPcbRfObUQzkR5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26403336181:android:bab112700538c006",
+        "android_client_info": {
+          "package_name": "com.example.tomas1207.resturante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26403336181-k6nhbsp0g1s59kkr3u4rm5oh3lntl1hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tomas1207.resturante",
+            "certificate_hash": "d7838f43431f9a659041685e04038e1bcb331f51"
+          }
+        },
+        {
+          "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaL7jABfLxraLuWT0HgPcbRfObUQzkR5Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26403336181-ka3s8vcar2sq7495bgj88a3ukehat5dd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
