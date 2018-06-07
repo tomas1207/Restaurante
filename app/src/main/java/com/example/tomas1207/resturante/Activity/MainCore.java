@@ -1,4 +1,4 @@
-package com.example.tomas1207.resturante;
+package com.example.tomas1207.resturante.Activity;
 
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -9,6 +9,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.tomas1207.resturante.R;
 
 public class MainCore extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
