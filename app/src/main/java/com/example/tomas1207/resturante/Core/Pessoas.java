@@ -1,4 +1,4 @@
-package com.example.tomas1207.resturante;
+package com.example.tomas1207.resturante.Core;
 
 public class Pessoas {
     private String Nome;
