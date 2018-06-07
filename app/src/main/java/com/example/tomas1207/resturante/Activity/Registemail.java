@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.example.tomas1207.resturante.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -36,10 +35,8 @@ private EditText Email,Pass;private String Emails,Passs;
 
                 @Override
                 public void onComplete(@NonNull Task<AuthResult> task) {
-                    Toast.makeText(Registemail.this, "createUserWithEmail:onComplete:" + task.isSuccessful(), Toast.LENGTH_SHORT).show();
                     if (!task.isSuccessful()) {
-                        Toast.makeText(Registemail.this, "Authentication failed." + task.getException(),
-                                Toast.LENGTH_SHORT).show();
+
                     } else {
 
                         startActivity(new Intent(Registemail.this, Registar.class));
