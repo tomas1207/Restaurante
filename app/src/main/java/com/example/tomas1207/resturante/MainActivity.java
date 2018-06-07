@@ -1,16 +1,12 @@
 package com.example.tomas1207.resturante;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.tomas1207.resturante.Activity.Registar;
-import com.example.tomas1207.resturante.Core.Pessoas;
-import com.google.firebase.FirebaseApp;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.tomas1207.resturante.Activity.Registemail;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Regsitar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Registar.class);
+                Intent intent = new Intent(MainActivity.this, Registemail.class);
                 startActivity(intent);
             }
         });
