@@ -15,6 +15,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C37B6F7A20DBE4EA0061EF47 /* Minigames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigames.swift; sourceTree = "<group>"; };
+		C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		C37B6F7C20DBE4F00061EF47 /* EmenyPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmenyPokemon.swift; sourceTree = "<group>"; };
 		C3F9F07E20ADC08100E61F80 /* Tabelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9F08120ADC08100E61F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F9F08320ADC08100E61F80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +38,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C37B6F7820DBE4DC0061EF47 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C37B6F7C20DBE4F00061EF47 /* EmenyPokemon.swift */,
+				C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */,
+				C37B6F7920DBE4EA0061EF47 /* Minigame */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C37B6F7920DBE4EA0061EF47 /* Minigame */ = {
+			isa = PBXGroup;
+			children = (
+				C37B6F7A20DBE4EA0061EF47 /* Minigames.swift */,
+			);
+			path = Minigame;
+			sourceTree = "<group>";
+		};
 		C3F9F07520ADC08100E61F80 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +75,13 @@
 		C3F9F08020ADC08100E61F80 /* Tabelas */ = {
 			isa = PBXGroup;
 			children = (
-				C3F9F08120ADC08100E61F80 /* AppDelegate.swift */,
-				C3F9F08320ADC08100E61F80 /* ViewController.swift */,
 				C3F9F08520ADC08100E61F80 /* Main.storyboard */,
-				C3F9F08820ADC08300E61F80 /* Assets.xcassets */,
 				C3F9F08A20ADC08300E61F80 /* LaunchScreen.storyboard */,
+				C3F9F08320ADC08100E61F80 /* ViewController.swift */,
+				C3F9F08820ADC08300E61F80 /* Assets.xcassets */,
 				C3F9F08D20ADC08300E61F80 /* Info.plist */,
+				C3F9F08120ADC08100E61F80 /* AppDelegate.swift */,
+				C37B6F7820DBE4DC0061EF47 /* Core */,
 			);
 			path = Tabelas;
 			sourceTree = "<group>";
