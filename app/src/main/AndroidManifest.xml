@@ -26,7 +26,6 @@
             android:name=".Activity.MainCore"
             android:label="@string/title_activity_main_core"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activity.Registemail"></activity>
     </application>
 
 </manifest>

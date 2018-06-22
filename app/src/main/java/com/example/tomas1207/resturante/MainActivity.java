@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.tomas1207.resturante.Activity.Registemail;
-
 public class MainActivity extends AppCompatActivity {
 
     private Button Regsitar;
