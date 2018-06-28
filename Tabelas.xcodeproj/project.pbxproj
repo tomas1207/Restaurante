@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4579F22620DFEBBE007BE812 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579F22520DFEBBE007BE812 /* Results.storyboard */; };
 		45890ECC20DC05BA00DB3129 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45890ECA20DC05BA00DB3129 /* Main.storyboard */; };
 		45890ECF20DC05C600DB3129 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45890ECD20DC05C600DB3129 /* LaunchScreen.storyboard */; };
 		45890ED120DC05CF00DB3129 /* Storyboard2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45890ED020DC05CF00DB3129 /* Storyboard2.storyboard */; };
-		45890ED320DC05D700DB3129 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45890ED220DC05D700DB3129 /* Results.storyboard */; };
 		45890ED520DC063C00DB3129 /* poke-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45890ED420DC063C00DB3129 /* poke-2.png */; };
 		C3F9F08220ADC08100E61F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08120ADC08100E61F80 /* AppDelegate.swift */; };
 		C3F9F08420ADC08100E61F80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08320ADC08100E61F80 /* ViewController.swift */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4579F22520DFEBBE007BE812 /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
 		45890ECB20DC05BA00DB3129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Desktop/poke1/poke1/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45890ECE20DC05C600DB3129 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../Desktop/poke1/poke1/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45890ED020DC05CF00DB3129 /* Storyboard2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard2.storyboard; path = ../../../Desktop/poke1/poke1/Storyboard2.storyboard; sourceTree = "<group>"; };
-		45890ED220DC05D700DB3129 /* Results.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Results.storyboard; path = ../../../Desktop/poke1/poke1/Results.storyboard; sourceTree = "<group>"; };
 		45890ED420DC063C00DB3129 /* poke-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "poke-2.png"; path = "../../../Downloads/poke-2.png"; sourceTree = "<group>"; };
 		C37B6F7A20DBE4EA0061EF47 /* Minigames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigames.swift; sourceTree = "<group>"; };
 		C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
@@ -82,13 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				45890ED420DC063C00DB3129 /* poke-2.png */,
-				45890ECA20DC05BA00DB3129 /* Main.storyboard */,
 				C3F9F08320ADC08100E61F80 /* ViewController.swift */,
+				45890ECA20DC05BA00DB3129 /* Main.storyboard */,
+				45890ED020DC05CF00DB3129 /* Storyboard2.storyboard */,
 				45890ECD20DC05C600DB3129 /* LaunchScreen.storyboard */,
-				45890ED220DC05D700DB3129 /* Results.storyboard */,
+				4579F22520DFEBBE007BE812 /* Results.storyboard */,
 				C3F9F08820ADC08300E61F80 /* Assets.xcassets */,
 				C3F9F08D20ADC08300E61F80 /* Info.plist */,
-				45890ED020DC05CF00DB3129 /* Storyboard2.storyboard */,
 				C3F9F08120ADC08100E61F80 /* AppDelegate.swift */,
 				C37B6F7820DBE4DC0061EF47 /* Core */,
 			);
@@ -154,9 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				45890ED120DC05CF00DB3129 /* Storyboard2.storyboard in Resources */,
-				45890ED320DC05D700DB3129 /* Results.storyboard in Resources */,
 				45890ECF20DC05C600DB3129 /* LaunchScreen.storyboard in Resources */,
 				45890ECC20DC05BA00DB3129 /* Main.storyboard in Resources */,
+				4579F22620DFEBBE007BE812 /* Results.storyboard in Resources */,
 				C3F9F08920ADC08300E61F80 /* Assets.xcassets in Resources */,
 				45890ED520DC063C00DB3129 /* poke-2.png in Resources */,
 			);
