@@ -9,15 +9,17 @@
 import Foundation
 
 class EmenyPokemon{
-    var nome: String = "Enemy"
+    var nome,tipo:String
     var Vida,Atk,Def,rng:Int
     var cap:Bool = false
     var exp:Int = 0
     init() {
+        self.nome = "Emeny"
         self.Vida = 0
         self.Atk = 0
         self.Def = 0
         self.rng = 0
+        self.tipo = "Random"
         Stausapll()
     }
     func experence() -> Int {
@@ -56,7 +58,6 @@ class EmenyPokemon{
         self.Vida = Int(arc4random_uniform(70)+20)
     }
     func cap2() -> String {
-        
         return "Cenas"
     }
     

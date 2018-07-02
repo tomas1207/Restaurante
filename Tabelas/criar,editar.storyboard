@@ -4,16 +4,15 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Control Create-->
         <scene sceneID="Wi4-I8-7Pl">
             <objects>
-                <viewController id="yKG-5a-zfS" sceneMemberID="viewController">
+                <viewController id="yKG-5a-zfS" customClass="ControlCreate" customModule="Tabelas" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pWQ-h0-gwG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,20 +84,21 @@
                                 <rect key="frame" x="101" y="165" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-mZ-ycH">
-                                <rect key="frame" x="16" y="383" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <state key="normal" title="CRIAR POKEMON"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nPE-BL-USB">
                                 <rect key="frame" x="16" y="490" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="REMOVER POKEMON"/>
+                                <connections>
+                                    <action selector="Remove:" destination="yKG-5a-zfS" eventType="touchUpInside" id="dLw-bb-DJq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mK3-2t-FwJ">
                                 <rect key="frame" x="16" y="604" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <state key="normal" title="EDITAR POKEMON"/>
+                                <connections>
+                                    <action selector="Edit:" destination="yKG-5a-zfS" eventType="touchUpInside" id="p1h-0a-dBA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome Antigo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVS-j7-Lif">
                                 <rect key="frame" x="16" y="549" width="105" height="21"/>
@@ -114,14 +114,24 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bF-mZ-ycH">
+                                <rect key="frame" x="16" y="384" width="343" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <state key="normal" title="CRIAR POKEMON"/>
+                                <connections>
+                                    <action selector="Create:" destination="yKG-5a-zfS" eventType="touchUpInside" id="7dX-Yq-KyL"/>
+                                    <action selector="CreatePoke:" destination="T6i-4C-WLr" eventType="touchUpInside" id="dcg-te-XP8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="U8n-dO-b8b"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c5I-3W-fdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="T6i-4C-WLr" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-122.40000000000001" y="-163.26836581709148"/>
+            <point key="canvasLocation" x="-129" y="-161"/>
         </scene>
     </scenes>
 </document>

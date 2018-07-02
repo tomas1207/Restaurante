@@ -9,16 +9,18 @@
 import Foundation
 class pokemon{
        let advpokemon:EmenyPokemon = EmenyPokemon()
-    var Nome:String
+    var Nome,tipo:String
     var Vida,Atk,Def,rng:Int
     let minigame:Minigame = Minigame()
     var exp:Int = 0
-    init(Nome:String) {
+    
+    init(Nome:String, tipo:String) {
         self.Nome = Nome
         self.Atk = 0
         self.Def = 0
         self.Vida = 0
         self.rng = 0
+        self.tipo = tipo
         experence()
         Stausapll()
     }
@@ -60,53 +62,3 @@ class pokemon{
         self.Def = Int(arc4random_uniform(3)+1)
         self.Vida = Int(arc4random_uniform(70)+20)
     }
-    
-    func batallha() -> String {
-     
-        
-        while self.Vida != 0 || advpokemon.Vida != 0 {
-            
-            self.rng = Int(arc4random_uniform(10)+1)
-            
-            if rng > 2 {
-                let _tempmini = minigame.Atckmodifer(N: self.Atk)
-                if _tempmini != 0 {
-                    self.Atk = _tempmini
-                    print("Ganhou o minigame")
-                }
-                        let dngperc = self.Atk / advpokemon.Def + 1
-                advpokemon.Vida = advpokemon.Vida - dngperc
-            }
-            advpokemon.rng = Int(arc4random_uniform(10)+1)
-            if advpokemon.rng > 2 {
-                let _tempmini2 = minigame.Atckmodifer(N: advpokemon.Atk)
-                if _tempmini2 != 0 {
-                    advpokemon.Atk = _tempmini2
-                      print("O adv ganhou")
-                }
-                    let dngtome = advpokemon.Atk / self.Def + 1
-                self.Vida = self.Vida - dngtome
-            }
-            sleep(1)
-            if advpokemon.Vida <= 0 {
-                Dead()
-                return "Winner"
-              
-            }
-            if self.Vida <= 0 {
-                self.Vida = 0
-            }
-            if self.advpokemon.Vida <= 0 {
-                self.advpokemon.Vida = 0
-            }
-            return "Next Round Vida adv \(advpokemon.Vida) Vida do meu poke \(self.Vida)"
-        }
-        if self.Vida <= 0 {
-            return "Loser"
-        }
-            return "-"
-        
-        }
-    
-    }
-

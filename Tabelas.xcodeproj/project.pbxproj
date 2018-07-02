@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4579F22620DFEBBE007BE812 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579F22520DFEBBE007BE812 /* Results.storyboard */; };
+		C30ACF5320EA67AE00BAC28F /* ControlCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30ACF5220EA67AE00BAC28F /* ControlCreate.swift */; };
 		C3F9F08220ADC08100E61F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08120ADC08100E61F80 /* AppDelegate.swift */; };
 		C3F9F08420ADC08100E61F80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08320ADC08100E61F80 /* ViewController.swift */; };
-		C3F9F08920ADC08300E61F80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F9F08820ADC08300E61F80 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,13 +20,13 @@
 		C30ACF4B20EA631100BAC28F /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Results.storyboard; path = ../../../Downloads/Archive/Tabelas/Results.storyboard; sourceTree = "<group>"; };
 		C30ACF4C20EA631100BAC28F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C30ACF4D20EA631100BAC28F /* criar,editar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "criar,editar.storyboard"; sourceTree = "<group>"; };
+		C30ACF5220EA67AE00BAC28F /* ControlCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCreate.swift; sourceTree = "<group>"; };
 		C37B6F7A20DBE4EA0061EF47 /* Minigames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigames.swift; sourceTree = "<group>"; };
 		C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		C37B6F7C20DBE4F00061EF47 /* EmenyPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmenyPokemon.swift; sourceTree = "<group>"; };
 		C3F9F07E20ADC08100E61F80 /* Tabelas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabelas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9F08120ADC08100E61F80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3F9F08320ADC08100E61F80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C3F9F08820ADC08300E61F80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F9F08D20ADC08300E61F80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,13 +79,13 @@
 			isa = PBXGroup;
 			children = (
 				C30ACF4D20EA631100BAC28F /* criar,editar.storyboard */,
+				C30ACF5220EA67AE00BAC28F /* ControlCreate.swift */,
 				4579F22520DFEBBE007BE812 /* Results.storyboard */,
 				C30ACF4C20EA631100BAC28F /* LaunchScreen.storyboard */,
 				C30ACF4920EA631000BAC28F /* Main.storyboard */,
 				C30ACF4A20EA631100BAC28F /* batalha.storyboard */,
 				C30ACF4B20EA631100BAC28F /* Results.storyboard */,
 				C3F9F08320ADC08100E61F80 /* ViewController.swift */,
-				C3F9F08820ADC08300E61F80 /* Assets.xcassets */,
 				C3F9F08D20ADC08300E61F80 /* Info.plist */,
 				C3F9F08120ADC08100E61F80 /* AppDelegate.swift */,
 				C37B6F7820DBE4DC0061EF47 /* Core */,
@@ -152,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4579F22620DFEBBE007BE812 /* Results.storyboard in Resources */,
-				C3F9F08920ADC08300E61F80 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3F9F08420ADC08100E61F80 /* ViewController.swift in Sources */,
+				C30ACF5320EA67AE00BAC28F /* ControlCreate.swift in Sources */,
 				C3F9F08220ADC08100E61F80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
