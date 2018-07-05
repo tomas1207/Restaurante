@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4579F22620DFEBBE007BE812 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4579F22520DFEBBE007BE812 /* Results.storyboard */; };
 		C30ACF5320EA67AE00BAC28F /* ControlCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30ACF5220EA67AE00BAC28F /* ControlCreate.swift */; };
+		C35B077620EE739000D60938 /* Ataques.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B077520EE739000D60938 /* Ataques.swift */; };
 		C3F9F08220ADC08100E61F80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08120ADC08100E61F80 /* AppDelegate.swift */; };
 		C3F9F08420ADC08100E61F80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F9F08320ADC08100E61F80 /* ViewController.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		C30ACF4C20EA631100BAC28F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C30ACF4D20EA631100BAC28F /* criar,editar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "criar,editar.storyboard"; sourceTree = "<group>"; };
 		C30ACF5220EA67AE00BAC28F /* ControlCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCreate.swift; sourceTree = "<group>"; };
+		C35B077520EE739000D60938 /* Ataques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ataques.swift; sourceTree = "<group>"; };
 		C37B6F7A20DBE4EA0061EF47 /* Minigames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigames.swift; sourceTree = "<group>"; };
 		C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		C37B6F7C20DBE4F00061EF47 /* EmenyPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmenyPokemon.swift; sourceTree = "<group>"; };
@@ -44,6 +46,7 @@
 		C37B6F7820DBE4DC0061EF47 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C35B077520EE739000D60938 /* Ataques.swift */,
 				C37B6F7C20DBE4F00061EF47 /* EmenyPokemon.swift */,
 				C37B6F7B20DBE4EE0061EF47 /* Pokemon.swift */,
 				C37B6F7920DBE4EA0061EF47 /* Minigame */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35B077620EE739000D60938 /* Ataques.swift in Sources */,
 				C3F9F08420ADC08100E61F80 /* ViewController.swift in Sources */,
 				C30ACF5320EA67AE00BAC28F /* ControlCreate.swift in Sources */,
 				C3F9F08220ADC08100E61F80 /* AppDelegate.swift in Sources */,

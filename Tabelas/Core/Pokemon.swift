@@ -2,7 +2,7 @@
 //  Pokemon.swift
 //  Pokemon
 //
-//  Created by on 09/05/2018.
+//  Created by Tomas on 09/05/2018.
 //  Copyright © 2018 Tomas. All rights reserved.
 //
 
@@ -25,7 +25,7 @@ class pokemon{
         Stausapll()
     }
     func experence() -> Int {
-        if self.exp >= 0
+        if self.exp > 0
         {
             self.exp = self.exp + Int(arc4random_uniform(5)+1)
             return self.exp
@@ -57,8 +57,34 @@ class pokemon{
     func Dead(){
         advpokemon.Stausapll()
     }
+    
+    
+    
+    
+    func elementos(advpokemon:advpokemon.tipo, dmg:Int) -> String{
+        if advpokemon{
+            if advpokemon = "Agua" && self.tipo = "Fogo" {
+                return "Fraco"
+            }
+            else
+            {
+                return "Forte"
+            }
+            if advpokemon = "Erva" && self.tipo = "Pedra" {
+                
+            return "Fraco"
+            }
+            else{
+                return "Forte"
+                
+            }
+        }
+    }
+    
+    
     func Stausapll() {
         self.Atk = Int(arc4random_uniform(10)+3)
         self.Def = Int(arc4random_uniform(3)+1)
         self.Vida = Int(arc4random_uniform(70)+20)
     }
+}
